@@ -1,0 +1,133 @@
+# Visual Studio и классический .NET
+*.user
+*.suo
+*.cache
+*.vs
+*.vssscc
+*.vspscc
+*.nupkg
+*.log
+*.tmp
+*.tmp_proj
+*.litetask
+*.dotcover
+*.DotSettings.user
+
+# Папки сборки и временные файлы
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+arm/
+arm64/
+[Pp]ackages/
+[Mm]sbuild.log
+[Mm]sbuild.err
+[Mm]sbuild.wrn
+
+# Папки тестов
+[Tt]est[Rr]esults/
+[Tt]est[Rr]esults*/
+[Cc]ode[Cc]overage/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+project.assets.json
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Пользовательские настройки проектов
+*.csproj.user
+*.vbproj.user
+*.fsproj.user
+appsettings.*.json
+launchSettings.json
+Properties/launchSettings.json
+secrets.json
+
+# Логи и дампы
+*.log
+*.htm
+*.html
+*.diagsession
+*.dmp
+*.clog
+*.etl
+
+# Файлы диагностики
+*.metrics
+*.stax
+*.trace
+*.vsp
+*.vspx
+
+# Результаты сборки
+*.msi
+*.msm
+*.msp
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ncrunchsolution
+*.ncrunch*
+*.crunchsolution.*
+*.crunchlocal.xml
+
+# Ресурсы, не относящиеся к коду
+*.vsix
+*.vsixmanifest
+*.trx
+*.vsmdi
+*.testsettings
+*.runsettings
+
+# Переменные окружения и локальные данные
+.env
+.env.*
+!.env.example
+
+# Файлы отладки
+*.sbr
+*.bsc
+*.ilk
+*.exp
+*.idb
+*.iobj
+*.ipdb
+*.ipdb
+
+# Docker
+[Dd]ockerfile*
+[Dd]ockerignore
+*.dockerignore
+
+# SonarQube / SonarCloud
+.sonarqube/
+.sonar/
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# Инструменты миграции
+_Resharper/
+_ReSharper*/
+*.resharper
+*.resharper.user
