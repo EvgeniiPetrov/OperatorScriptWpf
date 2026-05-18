@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OperatorScriptWpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Интерактивный скрипт оператора" Height="720" Width="1100"
+        MinHeight="600" MinWidth="900">
+    <Grid Background="#F4F6F8">
+
 
     </Grid>
 </Window>
