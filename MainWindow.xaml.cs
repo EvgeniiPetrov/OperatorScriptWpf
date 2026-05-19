@@ -16,8 +16,30 @@ namespace OperatorScriptWpf;
 /// </summary>
 public partial class MainWindow : Window
 {
+    private bool _startupDialogWasShown;
+
     public MainWindow()
     {
         InitializeComponent();
     }
+
+    private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+    {
+        if (_startupDialogWasShown) return;
+
+        _startupDialogWasShown = true;
+
+        var dialog = new StartupDialog()
+        {
+            Owner =  this
+        };
+        bool? result = dialog.ShowDialog();
+        
+        if (result == true)
+        {
+            Title = $"Интерактивный скрипт оператора — {dialog.OperatorName} / {dialog.ClientName}";
+        }
+
+    }
+
 }

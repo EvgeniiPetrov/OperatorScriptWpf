@@ -9,7 +9,8 @@
         Height="720" 
         Width="1100"
         MinHeight="600" 
-        MinWidth="900">
+        MinWidth="900"
+        Loaded="MainWindow_Loaded">
     <Grid Background="#F4F6F8">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -37,7 +38,7 @@
                 <TextBlock Margin="20" Text="Инструкция для недозвона"/>
             </TabItem>
             <TabItem Header="Перезвон">
-                <TextBlock Margin="20" Text="Инструкция для перевзвона"/>
+                <TextBlock Margin="20" Text="Инструкция для перезвона"/>
             </TabItem>
             <TabItem Header="Ошибка телефонии">
                 <TextBlock Margin="20" Text="Инструкция для ошибок телефонии"/>

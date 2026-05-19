@@ -131,3 +131,4 @@ _Resharper/
 _ReSharper*/
 *.resharper
 *.resharper.user
+/diff.txt
