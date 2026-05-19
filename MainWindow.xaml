@@ -5,10 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OperatorScriptWpf"
         mc:Ignorable="d"
-        Title="Интерактивный скрипт оператора" Height="720" Width="1100"
-        MinHeight="600" MinWidth="900">
+        Title="Интерактивный скрипт оператора" 
+        Height="720" 
+        Width="1100"
+        MinHeight="600" 
+        MinWidth="900">
     <Grid Background="#F4F6F8">
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Border Grid.Row = "0" Background="#263238" Padding= "18">
+            <TextBlock Text="Интерактивный скрипт оператора"
+                       Foreground="White"
+                       FontSize="22"
+                       FontWeight="Semibold"
+                       />
+        </Border>
+        <TabControl Grid.Row="1" Margin="16">
+            <TabItem Header="Представление">
+                <TextBlock Margin="20" Text="Здесь будет интерактивный скрипт"/>
+            </TabItem>
+            <TabItem Header="Дозвон, Успешно">
+                <TextBlock Margin="20" Text="Инструкция для успешного дозвона"/>
+            </TabItem>
+            <TabItem Header="Дозвон, Отказ">
+                <TextBlock Margin="20" Text="Инструкция для отказа"/>
+            </TabItem>
+            <TabItem Header="Недозвон">
+                <TextBlock Margin="20" Text="Инструкция для недозвона"/>
+            </TabItem>
+            <TabItem Header="Перезвон">
+                <TextBlock Margin="20" Text="Инструкция для перевзвона"/>
+            </TabItem>
+            <TabItem Header="Ошибка телефонии">
+                <TextBlock Margin="20" Text="Инструкция для ошибок телефонии"/>
+            </TabItem>
+        </TabControl>
+                
+    
 
     </Grid>
 </Window>
