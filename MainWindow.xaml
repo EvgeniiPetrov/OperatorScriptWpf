@@ -26,7 +26,19 @@
         </Border>
         <TabControl Grid.Row="1" Margin="16">
             <TabItem Header="Представление">
-                <TextBlock Margin="20" Text="Здесь будет интерактивный скрипт"/>
+                <!-- <TextBlock Margin="20" Text="Здесь будет интерактивный скрипт"/> -->
+                
+                <StackPanel Margin="20">
+                    <TextBlock x:Name="ScriptTextBlock"
+                               Text="Здесь будет первый шаг"
+                               TextWrapping="Wrap"
+                               FontSize="16"
+                               Margin="0,0,0,12"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Content="Да" Width="100" Margin="0,0,8,0" Click="YesButtion_Click"/>
+                        <Button Content="Нет" Width="100" Click="NoButtion_Click"/>
+                    </StackPanel>
+                </StackPanel>
             </TabItem>
             <TabItem Header="Дозвон, Успешно">
                 <TextBlock Margin="20" Text="Инструкция для успешного дозвона"/>

@@ -19,7 +19,7 @@
                 </Grid.RowDefinitions>
                 
                 <TextBlock Grid.Row="0"
-                           Text="Перед началом раюоты заполните данные для подстановки в скрипт"
+                           Text="Перед началом работы заполните данные для подстановки в скрипт"
                            TextWrapping="Wrap"
                            FontSize="15"
                            FontWeight="SemiBold"/>
